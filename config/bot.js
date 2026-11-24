@@ -28,7 +28,7 @@ const envSchema = z.object({
   BOOSTER_ROLE_ID: z.string().optional().default(''),
   VERIFY_CHANNEL_ID: z.string().optional().default(''),
   VOUCH_CHANNEL_ID: z.string().optional().default(''),
-  SUPPORT_CHANNEL_ID: z.string().optional().default('1532405619028529334'),
+  SUPPORT_CHANNEL_ID: z.string().optional().default(''),
   GUILD_ID: z.string().optional().default(''),
   LOG_CHANNEL_ID: z.string().optional().default(''),
   LOG_WEBHOOK_URL: z.string().optional().default(''),
